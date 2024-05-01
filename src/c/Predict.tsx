@@ -23,7 +23,7 @@ export default function Predictor() {
 
   return (
     <>
-      <h1>Itinerary Generator</h1>
+      <h3>Will you get into YC?</h3>
       <form onSubmit={handleSubmit}>
         <input type="text" value={input} onChange={handleInputChange} placeholder="idea in one line" />
         <br />
