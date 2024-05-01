@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 80%;
+}
+
+a {
+  color: cyan;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(1, 175, 175);
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.nav>h1>a {
+  text-decoration: none;
+  color: white;
+}
+
+.navRight>a {
+  text-decoration: none;
+}
+
+.navRight>a:hover {
+  background-color: rgb(19, 19, 19);
+}
