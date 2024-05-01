@@ -2,8 +2,8 @@ import { nav as Nav } from "@/c/nav";
 import "@/s/global.css";
 
 export const metadata = {
-  title: "Mantine",
-  description: "I have followed setup instructions carefully",
+  title: "YC Predict",
+  description: "will you get into yc?",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
